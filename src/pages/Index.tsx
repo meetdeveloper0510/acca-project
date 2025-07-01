@@ -13,7 +13,7 @@ import {
   Globe,
   Award
 } from "lucide-react";
-import bannerImage from "../assets/image/banner.png"
+// import bannerImage from "../assets/image/banner.png"
 import workOne from "../assets/image/work_1.png"
 import workTwo from "../assets/image/work_2.png"
 import footer from "../assets/image/footer.png"
@@ -56,7 +56,7 @@ const Index = () => {
       <section className="relative bg-black text-white overflow-hidden min-h-[500px]">
         <div className="absolute inset-0">
           <img
-            src={bannerImage}
+            src={Banner}
             alt="Industrial welding background"
             className="w-full h-full object-cover"
           />
