@@ -196,7 +196,7 @@ const Index = () => {
 
             {/* Vertical divider after first column */}
             <div className="relative text-center">
-              <div className="absolute -left-px top-1/2 transform -translate-y-1/2 w-px h-24 bg-white hidden md:block"></div>
+              <div className="absolute -left-px top-1/2 transform -translate-y-1/2 w-px h-16 bg-white hidden md:block"></div>
               <h3 className="mb-6">Impactful personal branding</h3>
               <div className="w-16 h-16 mx-auto mb-4">
                 <img
@@ -209,7 +209,7 @@ const Index = () => {
 
             {/* Vertical divider after second column */}
             <div className="relative text-center">
-              <div className="absolute -left-px top-1/2 transform -translate-y-1/2 w-px h-24 bg-white hidden md:block"></div>
+              <div className="absolute -left-px top-1/2 transform -translate-y-1/2 w-px h-16 bg-white hidden md:block"></div>
               <h3 className="mb-6">Adaptive and critical thinking</h3>
               <div className="w-16 h-16 mx-auto mb-4">
                 <img
@@ -222,7 +222,7 @@ const Index = () => {
 
             {/* Vertical divider after third column */}
             <div className="relative text-center">
-              <div className="absolute -left-px top-1/2 transform -translate-y-1/2 w-px h-24 bg-white hidden md:block"></div>
+              <div className="absolute -left-px top-1/2 transform -translate-y-1/2 w-px h-16 bg-white hidden md:block"></div>
               <h3 className="mb-6">Effective<br></br> communication</h3>
               <div className="w-16 h-16 mx-auto mb-4">
                 <img
@@ -235,7 +235,7 @@ const Index = () => {
 
             {/* Vertical divider after fourth column */}
             <div className="relative text-center readiness">
-              <div className="absolute -left-px top-1/2 transform -translate-y-1/2 w-px h-24 bg-white hidden md:block"></div>
+              <div className="absolute -left-px top-1/2 transform -translate-y-1/2 w-px h-16 bg-white hidden md:block"></div>
               <h3 className="mb-6">Ethical<br></br> decision making</h3>
               <div className="w-16 h-16 mx-auto mb-4">
                 <img
