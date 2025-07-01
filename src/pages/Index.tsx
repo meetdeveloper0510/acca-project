@@ -28,7 +28,7 @@ import fmembers from "../assets/image/fmembers.png"
 import members from "../assets/image/members.png"
 import decision from "../assets/image/decision.png"
 import interview from "../assets/image/interview.png"
-import Banner from "../assets/image/Banner.png"
+import banner from "../assets/image/Banner.png"
 import upskills1 from "../assets/image/upskills1.png";
 import upskills2 from "../assets/image/upskills2.png";
 import optimized from "../assets/image/optimized.png";
