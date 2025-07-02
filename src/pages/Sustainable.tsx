@@ -271,7 +271,7 @@ const tabs = [
       {/* Pink Box Animation */}
       {showPinkBox && (
   <div className="fixed inset-0 z-50 pointer-events-none">
-    <div className="pink-box-animation absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-full bg-[#FEEBF6] opacity-90"></div>
+    <div className="pink-box-animation absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-full bg-[#FFD1DF] opacity-90"></div>
   </div>
 )}
 
