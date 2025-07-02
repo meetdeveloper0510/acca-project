@@ -38,6 +38,8 @@ body {
     overflow-x: hidden;
 }
 
+
+
 p {
     font-weight: 500;
     line-height: 24px;
@@ -107,7 +109,7 @@ h2.h2-fonts {
 
 .width p {
     font-weight: 500;
-    line-height: 22px;
+    line-height: 32px;
 }
 
 .width .container {
@@ -438,6 +440,12 @@ h3.h3-fonts {
     line-height: 22px;
     font-size: 18px !important;
     color: #c80000;
+    text-decoration: underline;
+}
+
+.upskills {
+    padding-top: 4em;
+    padding-bottom: 5em;
 }
 
 .only-ul li span:last-child {
@@ -694,7 +702,7 @@ h2.h2-tabs {
 }
 
 p.tabs-para {
-    line-height: 30px;
+    line-height: 32px;
     margin-top: 20px !important;
 }
 
@@ -714,6 +722,7 @@ img.w-full.h-64.object-cover.image-height {
 .tabs-links a {
     font-size: 18px;
     color: #c80000;
+    text-decoration: underline;
 }
 
 
@@ -721,3 +730,39 @@ img.w-full.h-64.object-cover.image-height {
     width: 100%;
     height: auto;
 }
+
+
+@media screen and (min-width:1800px) and (max-width:1940px) {
+.margin-acca.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+svg.lucide.lucide-arrow-right.ml-2.h-4.w-4 {
+    color: #c80000 !important;
+}
+
+svg.lucide.lucide-plus.h-5.w-5.border.border-\[\#CF001B\].text-\[\#CF001B\].rounded-full.font-bold.cssforthis {
+    border-width: 2px;
+}
+
+
+@media only screen and (min-width:425px) {
+    .absolute.bg-white.shadow-2xl.w-80.max-h-96.overflow-hidden.border.border-gray-200.box-width {
+    width: 30%;
+}
+}
+
+svg.lucide.lucide-plus.h-5.w-5.border.border-\[\#CF001B\].text-\[\#CF001B\].rounded-full.font-bold.cssforthis:hover {
+    border-color: #ffffff;
+}
+
+svg.lucide.lucide-plus.h-5.w-5.border.border-\[\#CF001B\].text-\[\#CF001B\].rounded-full.font-bold.cssforthis:hover {
+    color: #ffffff;
+}
+
+button.w-7.h-7.bg-white.rounded-full.shadow-lg.flex.items-center.justify-center.hover\:bg-gray-50.transition-colors.duration-200.group:hover {
+    background-color: #C80000;
+}
+
