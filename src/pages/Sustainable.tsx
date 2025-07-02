@@ -21,9 +21,14 @@ import map from "../assets/image/map.svg";
 import how from "../assets/image/how.svg";
 import { FiSearch, FiUser, FiMapPin, FiSettings, FiArrowRight } from "react-icons/fi";
 import { TbBulb } from "react-icons/tb";
-
 import { useState, useRef, useEffect } from "react";
 import { ArrowRight, Plus, X } from "lucide-react";
+import why from "../assets/image/why.png";
+import who from "../assets/image/who.png";
+import where from "../assets/image/where.png";
+import How from "../assets/image/How.png";
+
+
 
 const Sustainable = () => {
   const [activeTab, setActiveTab] = useState("what");
@@ -82,89 +87,89 @@ const tabs = [
       ],
     },
     why: {
-      title: "Why Choose Sustainable Business?",
-      description: "Sustainable business practices help reduce environmental impact while creating long-term value for stakeholders. They improve brand reputation, reduce operational costs, and ensure compliance with evolving regulations.",
-      image: "https://images.unsplash.com/photo-1473091534298-04dcbce3278c?w=600&h=400&fit=crop",
+      title: "Why the need to implement sustainability?",
+      description: "Climate and sustainability are significant drivers for organisations, both large and small. As governments recognise the need to address the climate emergency, organisations must respond with their own plans to achieve carbon neutrality, net-zero, or similar defined targets.",
+      image: why,
       popupImages: [
         {
           id: 1,
-          src: "/assets/image/why-popup-1.png",
+          src: what1,
           alt: "Why popup image 1",
         },
         {
           id: 2,
-          src: "/assets/image/why-popup-2.png",
+          src: what2,
           alt: "Why popup image 2",
         },
         {
           id: 3,
-          src: "/assets/image/why-popup-3.png",
+          src: what3,
           alt: "Why popup image 3",
         },
       ],
     },
     who: {
-      title: "Who Benefits from Sustainable Business?",
-      description: "All stakeholders benefit from sustainable business practices - investors see better returns, employees enjoy better working conditions, customers get quality products, and communities experience positive environmental impact.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
+      title: "Who creates the ESG framework?",
+      description: "Accountants, in collaboration with sustainability leads and senior leadership, play a key role in creating ESG frameworks. They define material risks, set measurable KPIs, and ensure transparent disclosures, aligning ESG with strategy, reporting standards and investor expectations.",
+      image: who,
       popupImages: [
         {
           id: 1,
-          src: "/assets/image/who-popup-1.png",
+          src: what1,
           alt: "Who popup image 1",
         },
         {
           id: 2,
-          src: "/assets/image/who-popup-2.png",
+          src: what2,
           alt: "Who popup image 2",
         },
         {
           id: 3,
-          src: "/assets/image/who-popup-3.png",
+          src: what3,
           alt: "Who popup image 3",
         },
       ],
     },
     where: {
-      title: "Where to Implement Sustainable Practices?",
-      description: "Sustainable practices can be implemented across all business operations - from supply chain management and manufacturing processes to office operations and customer service delivery.",
-      image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=600&h=400&fit=crop",
+      title: "Where is accountancy’s role in ESG?",
+      description: "Accountants are central to the ESG journey. They provide the frameworks, assurance and reporting expertise needed to drive meaningful sustainability outcomes. Their work touches strategy, risk, compliance, and decision support.",
+      image: where,
       popupImages: [
         {
           id: 1,
-          src: "/assets/image/where-popup-1.png",
+          src: what1,
           alt: "Where popup image 1",
         },
         {
           id: 2,
-          src: "/assets/image/where-popup-2.png",
+          src: what2,
           alt: "Where popup image 2",
         },
         {
           id: 3,
-          src: "/assets/image/where-popup-3.png",
+          src: what3,
           alt: "Where popup image 3",
         },
       ],
     },
     how: {
-      title: "How to Build Sustainable Business?",
-      description: "Building sustainable business requires strategic planning, stakeholder engagement, continuous monitoring, and adaptation. Start with setting clear sustainability goals and implementing measurable practices.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
+      title: "How do organisations embed sustainability?",
+      description: "Organisations embed sustainability by aligning ESG goals with strategy, ensuring governance oversight, using credible data, adopting green finance, and building team capabilities. Finance professionals play a key role in integrating ESG across planning, risk and reporting.",
+      image: How,
       popupImages: [
         {
           id: 1,
-          src: "/assets/image/how-popup-1.png",
+          src: what1,
           alt: "How popup image 1",
         },
         {
           id: 2,
-          src: "/assets/image/how-popup-2.png",
+          src: what2,
           alt: "How popup image 2",
         },
         {
           id: 3,
-          src: "/assets/image/how-popup-3.png",
+          src: what3,
           alt: "How popup image 3",
         },
       ],
@@ -400,7 +405,7 @@ const tabs = [
                 <div className="relative">
                   <div className="relative overflow-hidden">
                     <img
-                      src={rightbanner}
+                      src={content.image}
                       alt={content.title}
                       className="w-full h-64 object-cover image-height"
                     />
