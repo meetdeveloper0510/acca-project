@@ -805,3 +805,6 @@ button.w-7.h-7.bg-white.rounded-full.shadow-lg.flex.items-center.justify-center.
 .icon3 {
     right: -150px !important;
 }
+
+.upskills .grid-gap {
+    gap:40px;
