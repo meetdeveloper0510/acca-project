@@ -239,7 +239,7 @@ const tabs = [
       <style>{`
   @keyframes pinkBoxSmoothRise {
     0% {
-      transform: translate(-50%, 100%) scale(0.1);
+      transform: translate(-50%, 100%) scale(0);
       opacity: 1;
     }
     100% {
