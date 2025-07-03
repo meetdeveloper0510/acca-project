@@ -98,7 +98,7 @@ const Index = () => {
           {/* Divider line */}
           <div className="bg-[#CF001B] h-[2px] w-[100px] mb-8"></div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-8xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-8xl mx-auto grid-gap">
             {/* Interview Prep Series Card */}
             <div className=" overflow-hidden">
               <div className="aspect-video relative">
