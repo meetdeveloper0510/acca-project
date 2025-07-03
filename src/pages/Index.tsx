@@ -77,7 +77,7 @@ const Index = () => {
       {/* Gateway Section */}
       <section className="width">
         <div className="container mx-auto px-4 py-6  text-left">
-          <h2 className="h2-fonts">Your skills-building companion</h2>
+          <h2 className="h2-fonts">Your skill-building companion</h2>
 
           {/* Divider line */}
           <div className="bg-[#CF001B] h-[2px] w-[100px] mb-8"></div>
