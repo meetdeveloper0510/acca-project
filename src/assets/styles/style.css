@@ -754,6 +754,12 @@ svg.lucide.lucide-plus.h-5.w-5.border.border-\[\#CF001B\].text-\[\#CF001B\].roun
 }
 }
 
+@media only screen and (min-width:1900px) and (max-width:1930px) {
+    .absolute.bg-white.shadow-2xl.w-80.max-h-96.overflow-hidden.border.border-gray-200.box-width {
+    width: 27%;
+}
+}
+
 svg.lucide.lucide-plus.h-5.w-5.border.border-\[\#CF001B\].text-\[\#CF001B\].rounded-full.font-bold.cssforthis:hover {
     border-color: #ffffff;
 }
