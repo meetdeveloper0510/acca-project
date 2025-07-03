@@ -772,3 +772,19 @@ button.w-7.h-7.bg-white.rounded-full.shadow-lg.flex.items-center.justify-center.
     background-color: #C80000;
 }
 
+
+.overflow-hidden {
+    overflow: visible !important;
+}
+
+.icon1 {
+    right: -45px !important;
+}
+
+.icon2 {
+    right: -130px !important;
+}
+
+.icon3 {
+    right: -150px !important;
+}
