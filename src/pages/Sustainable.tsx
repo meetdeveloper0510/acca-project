@@ -23,6 +23,8 @@ import who from "../assets/image/who.png";
 import where from "../assets/image/where.png";
 import How from "../assets/image/How.png";
 import { X } from "lucide-react";
+import bulb from "../assets/image/bulb.png";
+import person from "../assets/image/person.png"
 
 
 
@@ -75,8 +77,12 @@ const Sustainable = () => {
 
   const tabs = [
     { id: "what", label: "What", icon: <FiSearch className="text-red-500 w-5 h-5" /> },
-    { id: "why", label: "Why", icon: <TbBulb className="text-red-500 w-5 h-5" /> },
-    { id: "who", label: "Who", icon: <FiUser className="text-red-500 w-5 h-5" /> },
+    {
+    id: "why",
+    label: "Why",
+    icon: <img src={bulb} alt="Why" className="w-5 h-5 object-contain" />,
+  },
+    { id: "who", label: "Who", icon: <img src={person} alt="person" className="w-5 h-5 object-contain" />,},
     { id: "where", label: "Where", icon: <FiMapPin className="text-red-500 w-5 h-5" /> },
     { id: "how", label: "How", icon: <FiSettings className="text-red-500 w-5 h-5" /> },
   ];
@@ -372,7 +378,7 @@ const Sustainable = () => {
                   </span>
                     </span>
                     
-                    <span className="flex">
+                    <span >
                       <a
                       href={What_Flashcard}
                       target="_blank"
