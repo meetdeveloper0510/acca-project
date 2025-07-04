@@ -258,7 +258,7 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="text-center mt-6">
+          <div className="text-center mt-2">
             <p className=" max-w-4xl mx-auto this-para">
               Together, these skills build your confidence in environmental awareness, tech fluency, and career readiness.
             </p>
