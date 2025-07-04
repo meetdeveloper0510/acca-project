@@ -270,14 +270,25 @@ const Index = () => {
 
 
       {/* ACCA Careers Section */}
-      <section className="bg-black py-12 careers">
-        <div className="container mx-auto px-4 flex items-center justify-between">
-          <h2 className=" text-white">Connect your learning to real opportunities<br></br> with ACCA Careers</h2>
-          <a href="#" className=" px-4 py-2 rounded-md inline-flex items-center">
-            Find your next role  &nbsp; →
-          </a>
-        </div>
-      </section>
+<section className="bg-black py-12 careers">
+  <div className="container mx-auto px-4 flex items-center justify-between">
+    <h2 className="text-white">
+      Connect your learning to real opportunities<br />
+      with ACCA Careers
+    </h2>
+
+    <a href="#" className="flex border border-white text-white rounded-sm overflow-hidden">
+      <span className="px-4 py-2" style={{fontSize:'20px'}}>
+        Find your next role
+      </span>
+      <span className="px-4 border-l border-white flex items-center justify-center">
+        →
+      </span>
+    </a>
+  </div>
+</section>
+
+
 
 
       {/* Footer */}
