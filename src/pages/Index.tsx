@@ -48,8 +48,8 @@ const Index = () => {
   return (
     <div className="remove-scrollbar min-h-screen bg-background">
       {/* Header  */}
-      
-      <Header/>
+
+      <Header />
 
 
       {/* Hero Section */}
@@ -65,10 +65,10 @@ const Index = () => {
         <div className="margin-acca container mx-auto  relative z-10">
           <div className="">
             <h1 className="" style={{ fontSize: '100px', lineHeight: '90px', color: "#ffff", whiteSpace: "0%", fontWeight: 700 }}>
-              ACCA Virtual<br></br> Skills Platform<span style={{color: '#D20024'}}>.</span>
+              ACCA Virtual<br></br> Skills Platform<span style={{ color: '#D20024' }}>.</span>
             </h1>
             <p className="" style={{ fontSize: '26px', lineHeight: '50px', whiteSpace: "0px", }}>
-              With on-demand learning
+              With on-demand learning.
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@ const Index = () => {
       {/* Gateway Section */}
       <section className="width">
         <div className="container mx-auto px-4 py-6  text-left">
-          <h2 className="h2-fonts">Your skill-building companion</h2>
+          <h2 className="h2-fonts">Your skills-building companion</h2>
 
           {/* Divider line */}
           <div className="bg-[#CF001B] h-[2px] w-[100px] mb-8"></div>
@@ -98,7 +98,7 @@ const Index = () => {
           {/* Divider line */}
           <div className="bg-[#CF001B] h-[2px] w-[100px] mb-8"></div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-8xl mx-auto grid-gap">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-8xl mx-auto">
             {/* Interview Prep Series Card */}
             <div className=" overflow-hidden">
               <div className="aspect-video relative">
@@ -128,9 +128,14 @@ const Index = () => {
                   </li>
                 </ul>
 
-                <a href="#" className="inline-flex items-center">
-                  Sharpen your interview skills →
-                </a>
+                <span>
+                  <a href="#" className="inline-flex items-center">
+                    Sharpen your interview skills
+                  </a>
+                  <span className="inline-flex items-center ml-2" style={{ color: '#C80000' }}>
+                    →
+                  </span>
+                </span>
               </div>
             </div>
 
@@ -162,9 +167,15 @@ const Index = () => {
                     <span className="">Thoughtfully customised</span>
                   </li>
                 </ul>
-                <Link to="/flashcards" className="inline-flex items-center">
-                  Start building your skills with flashcards →
-                </Link>
+                <span>
+                  <Link to="/flashcards" className="inline-flex items-center">
+                    Start building your skills with flashcards
+                  </Link>
+                  <span className="inline-flex items-center ml-2" style={{ color: '#C80000' }}>
+                    →
+                  </span>
+                </span>
+
 
               </div>
             </div>
@@ -270,7 +281,7 @@ const Index = () => {
 
 
       {/* Footer */}
-      <Footer/>
+      <Footer />
 
 
     </div>
@@ -278,4 +289,3 @@ const Index = () => {
 };
 
 export default Index;
- 
