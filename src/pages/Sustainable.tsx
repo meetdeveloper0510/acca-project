@@ -358,23 +358,34 @@ const Sustainable = () => {
                   </p>
 
                   <div className="flex space-x-6 pt-4 tabs-links">
-                    <a
+                    <span className="flex">
+                      <a
                       href={Learn_more}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-red-600 hover:text-red-700 font-medium text-sm transition-colors duration-200 flex items-center"
                     >
-                      Click here to learn more →
+                      Click here to learn more 
                     </a>
-
-                    <a
+                    <span className="inline-flex items-center ml-2" style={{ color: '#C80000' }}>
+                    →
+                  </span>
+                    </span>
+                    
+                    <span className="flex">
+                      <a
                       href={What_Flashcard}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-red-600 hover:text-red-700 font-medium text-sm transition-colors duration-200 flex items-center"
                     >
-                      Download Flashcard →
+                      Download Flashcard 
                     </a>
+                    <span className="inline-flex items-center ml-2" style={{ color: '#C80000' }}>
+                    →
+                  </span>
+                    </span>
+                    
                   </div>
                 </div>
 
