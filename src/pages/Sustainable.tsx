@@ -378,7 +378,7 @@ const Sustainable = () => {
                   </span>
                     </span>
                     
-                    <span >
+                    <span className="flex">
                       <a
                       href={What_Flashcard}
                       target="_blank"
