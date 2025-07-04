@@ -810,3 +810,92 @@ button.w-7.h-7.bg-white.rounded-full.shadow-lg.flex.items-center.justify-center.
 .upskills .grid-gap {
     gap:40px;
 }
+
+
+.drop-box {
+  position: relative;
+  padding: 2rem;
+  /* Removed any border or box shadow */
+}
+
+/* Animated border pieces (no actual box border) */
+
+/* Top */
+.drop-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, #C80000 50%, transparent 0%);
+  background-size: 10px 2px;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  animation: move-right 1s linear infinite;
+  z-index: 1;
+}
+
+/* Bottom */
+.drop-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-image: linear-gradient(to left, #C80000 50%, transparent 0%);
+  background-size: 10px 2px;
+  background-repeat: repeat-x;
+  background-position: 100% 0;
+  animation: move-left 1s linear infinite;
+  z-index: 1;
+}
+
+/* Right */
+.drop-box .side.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 2px;
+  background-image: linear-gradient(to bottom, #C80000 50%, transparent 0%);
+  background-size: 2px 10px;
+  background-repeat: repeat-y;
+  background-position: 0 0;
+  animation: move-down 1s linear infinite;
+  z-index: 1;
+}
+
+/* Left */
+.drop-box .side.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  background-image: linear-gradient(to top, #C80000 50%, transparent 0%);
+  background-size: 2px 10px;
+  background-repeat: repeat-y;
+  background-position: 0 100%;
+  animation: move-up 1s linear infinite;
+  z-index: 1;
+}
+
+/* Animations */
+@keyframes move-right {
+  0% { background-position: 0 0; }
+  100% { background-position: 20px 0; }
+}
+@keyframes move-left {
+  0% { background-position: 100% 0; }
+  100% { background-position: 80% 0; }
+}
+@keyframes move-down {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 20px; }
+}
+@keyframes move-up {
+  0% { background-position: 0 100%; }
+  100% { background-position: 0 80%; }
+}
